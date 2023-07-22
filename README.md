@@ -19,13 +19,7 @@ midVar.id = xxx;
 
 HashRouter 替换后可以正常显示页面
 
-## 3.使用 antd 中的 message 组件时,遇到的问题
-
-### (1)不触发的问题
-
-_在 antd 中的 model 组件中,点击 ok 后不会触发 message 组件_
-
-## 4.在获取输入框的值时,使用 ref+useState 获取值会有延迟
+## 3.在获取输入框的值时,使用 ref+useState 获取值会有延迟
 
 因为 useState 是在组件下一次渲染时才更新,在调用 setState 后不会立即更新,使用 onChange+防抖可以获取新值
 
